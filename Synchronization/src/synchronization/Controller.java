@@ -20,6 +20,7 @@ public class Controller extends KeyAdapter implements KeyListener
     
     private Game game;
     private Handler handler;
+    private int prev_key = 0;
     
     /**
      * Constructor.
@@ -156,25 +157,37 @@ public class Controller extends KeyAdapter implements KeyListener
             {
                 // Stop from being moved up.
                 temp.setVelY(0);
-                game.setScore(1);
+                if((prev_key != key)){
+                    game.setScore(1);
+                    prev_key = key;
+                }
             }
             if((key == KeyEvent.VK_A) || (key == KeyEvent.VK_LEFT))
             {
                 // Stop from being moved left.
                 temp.setVelX(0);
-                game.setScore(1);
+                if((prev_key != key)){
+                    game.setScore(1);
+                    prev_key = key;
+                }
             }
             if((key == KeyEvent.VK_S) || (key == KeyEvent.VK_DOWN))
             {
                 // Stop from being moved down.
                 temp.setVelY(0);
-                game.setScore(1);
+                if((prev_key != key)){
+                    game.setScore(1);
+                    prev_key = key;
+                }
             }
             if((key == KeyEvent.VK_D) || (key == KeyEvent.VK_RIGHT))
             {
                 // Stop from being moved right.
                 temp.setVelX(0);
-                game.setScore(1);
+                if((prev_key != key)){
+                    game.setScore(1);
+                    prev_key = key;
+                }
             }
         }
     }
