@@ -16,4 +16,4 @@ Modifikasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
 Pengguna dapat menggerakkan objek lingkaran menggunakan tombol WASD pada keyboard. Score akan bertambah +1 jika pengguna menggerakan objek tersebut, namun score tidak akan bertambah jika pengguna menekan tombol yang sama setelahnya, sehingga score hanya akan bertambah +1 jika pengguna terus menekan tombol yang berbeda sesuai dengan ketentuan soal.
 
 ## Dokumentasi
-![Dokumentasi](https://github.com/anandamyzza/LP7C2DPBO2023/blob/main/Dokumentasi.gif?raw=true)
+![Dokumentasi](https://github.com/anandamyzza/LP7C2DPBO2023/blob/main/Dokumentasi.mp4?raw=true)
